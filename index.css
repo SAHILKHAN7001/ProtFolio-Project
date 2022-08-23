@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#navbar {
+    margin-bottom: 40px;
+}
+
+ul {
+    padding-left: 800px;
+    text-decoration:none;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 2px 2px 8px aliceblue;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-weight: 300; 
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    text-shadow:  2px 2px 8px #FF0000;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+    text-shadow: 2px 2px 8px aliceblue;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 400;
+    color: #99D930;
+    text-shadow: 2px 2px 8px aliceblue;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+} 
+
+header,
+section {
+    padding: 50px 0;
+}
+
+.inverse {
+    color: #fff;
+    background: linear-gradient(#FFA69E,#861657);
+    background-repeat: no-repeat;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background: #99D930;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+
+
+.btn:hover {
+    background: #252525;
+    color: #fff;
+}
+
+
+#bt {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #99D930;
+
+}
+#bt:hover {
+    background: #252525;
+    color: #fff;
+    
+}
+
+.unkown {
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 5px solid #99D930;
+}
+

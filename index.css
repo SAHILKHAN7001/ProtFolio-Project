@@ -106,11 +106,7 @@ section {
     padding: 50px 0;
 }
 
-.inverse {
-    color: #fff;
-    background-color: linear-gradient(#FFA69E,#861657);
-    background-repeat: no-repeat;
-}
+
 
 .inverse .btn:hover,
 .inverse .btn:focus {
@@ -158,3 +154,8 @@ section {
     border: 5px solid #99D930;
 }
 
+#section1,#section3 {
+    color: #fff;
+    background: linear-gradient(#FFA69E,#861657);
+    background-repeat: no-repeat;
+}

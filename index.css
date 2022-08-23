@@ -108,7 +108,7 @@ section {
 
 .inverse {
     color: #fff;
-    background: linear-gradient(#FFA69E,#861657);
+    background-color: linear-gradient(#FFA69E,#861657);
     background-repeat: no-repeat;
 }
 

@@ -156,7 +156,7 @@ section {
 
 #section1,#section3 {
     color: #fff;
-    background-color: #861657;
+    background: linear-gradient(#B279A7,#D387AB);
     background-repeat: no-repeat;
     margin: 0 auto;
 }

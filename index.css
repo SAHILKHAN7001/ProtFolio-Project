@@ -37,6 +37,21 @@ a:hover {
     text-shadow: 2px 2px 8px aliceblue;
 }
 
+
+@media screen and (max-width:600px){
+    ul {
+        display: none;
+    }
+    li {
+        display: none;
+    }
+}
+
+
+
+
+
+
 .container {
     width: 570px;
     margin: 0 auto;
@@ -160,3 +175,4 @@ section {
     background-repeat: no-repeat;
     margin: 0 auto;
 }
+
